@@ -1,0 +1,8 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# IDEs and OS files
+.vscode/
+.DS_Store
