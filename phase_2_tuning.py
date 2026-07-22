@@ -85,6 +85,14 @@ print("\n" + "="*50 + "\n")
 # %%
 print("=== Step 2: Retrain Best Estimator & Compare Overfitting Gap ===")
 
+# Retrain unconstrained baseline tree for fresh, dynamic comparison
+clf_baseline = DecisionTreeClassifier(random_state=42)
+clf_baseline.fit(X_train, y_train)
+
+train_acc_base = accuracy_score(y_train, clf_baseline.predict(X_train))
+test_acc_base = accuracy_score(y_test, clf_baseline.predict(X_test))
+gap_base = (train_acc_base - test_acc_base) * 100
+
 # Retrieve best model
 clf_best = grid_search.best_estimator_
 
@@ -96,11 +104,6 @@ y_test_pred_tuned = clf_best.predict(X_test)
 train_acc_tuned = accuracy_score(y_train, y_train_pred_tuned)
 test_acc_tuned = accuracy_score(y_test, y_test_pred_tuned)
 gap_tuned = (train_acc_tuned - test_acc_tuned) * 100
-
-# Phase 1 Baseline figures for comparison:
-train_acc_base = 0.9990
-test_acc_base = 0.7792
-gap_base = (train_acc_base - test_acc_base) * 100
 
 print(f"Tuned Train Accuracy: {train_acc_tuned * 100:.2f}%  (Baseline: {train_acc_base * 100:.2f}%)")
 print(f"Tuned Test Accuracy:  {test_acc_tuned * 100:.2f}%  (Baseline: {test_acc_base * 100:.2f}%)")
@@ -144,6 +147,15 @@ for c in cancer_classes:
 print("--- Clinical Error Breakdown ---")
 print(f"False Negatives (Cancer patients incorrectly classified as 'No Red Flags'): {false_negatives_cancer}")
 print(f"False Positives (Routine/Benign patients incorrectly flagged for Cancer): {false_positives_benign}")
+print("\n--- Clinical Asymmetry & Error Context ---")
+print(
+    "Clinical Explanation: In a cancer symptom screening tool, false negatives and false positives carry\n"
+    "vastly different real-world risks. A False Negative (misclassifying a real cancer patient as 'No Red Flags')\n"
+    "is catastrophic because it falsely reassures the patient, delaying crucial diagnostic workups and early intervention\n"
+    "when disease treatability is highest. Conversely, a False Positive (flagging a benign case for cancer evaluation)\n"
+    "merely triggers a secondary clinical check-up; while it may cause transient anxiety, it does not pose a\n"
+    "life-threatening clinical risk. Therefore, minimizing false negatives is the primary clinical safety objective."
+)
 print("\n" + "="*50 + "\n")
 
 # %% [markdown]
@@ -170,6 +182,7 @@ plot_tree(
 plt.title(f"Tuned Decision Tree Structure (Top {render_depth} Levels)", fontsize=16, fontweight='bold', pad=15)
 plt.tight_layout()
 plt.savefig("tuned_tree.png", dpi=300)
+plt.show()
 plt.close()
 
 # 4b: Feature Importance Bar Chart
@@ -192,6 +205,7 @@ plt.xlabel("Relative Feature Importance Score", fontsize=12)
 plt.ylabel("Symptom / Demographic Feature", fontsize=12)
 plt.tight_layout()
 plt.savefig("feature_importance.png", dpi=300)
+plt.show()
 plt.close()
 
 print("Saved visualization artifacts: 'tuned_tree.png' and 'feature_importance.png'.")
@@ -271,5 +285,13 @@ for cancer in target_cancers:
                 decision_str = f"> {threshold:.2f} (Rule satisfied: False -> Go Right)"
                 
             print(f"  Step {step_num} [Node {node_id}]: Split on '{feat_name}' | Patient value: {val} {decision_str}")
+
+    # Plain-language explanation connecting traced decision path features to known clinical symptom profile
+    if cancer == "Breast Cancer":
+        print("\nClinical Rationale: This decision path makes strong clinical sense because the tree first splits on 'breast_lump' to immediately isolate localized breast pathology, followed by splits on biological sex and breast swelling to confirm a classic clinical presentation for breast malignancy.")
+    elif cancer == "Lung Cancer":
+        print("\nClinical Rationale: This decision path is clinically sound because after ruling out non-respiratory anchors, the tree evaluates primary alarm symptoms ('persistent_cough', 'coughing_blood'), which strongly point to pulmonary malignancy regardless of patient age.")
+    elif cancer == "Cervical Cancer":
+        print("\nClinical Rationale: This decision path aligns directly with clinical triage by identifying 'abnormal_vaginal_bleeding' as the cardinal pathognomonic marker for cervical cancer once non-gynecological symptoms like breast lumps are excluded.")
 
 print("\n" + "="*50 + "\n")
