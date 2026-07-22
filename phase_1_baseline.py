@@ -148,12 +148,18 @@ print("=== Step 5: Baseline Decision Tree Training & Evaluation ===")
 clf = DecisionTreeClassifier(random_state=42)
 clf.fit(X_train, y_train)
 
-# Predict on the test set
+# Predict on training and test sets
+y_train_pred = clf.predict(X_train)
 y_pred = clf.predict(X_test)
 
 # Calculate accuracy
+train_accuracy = accuracy_score(y_train, y_train_pred)
 accuracy = accuracy_score(y_test, y_pred)
+gap = (train_accuracy - accuracy) * 100
+
+print(f"Baseline Train Accuracy: {train_accuracy * 100:.2f}%")
 print(f"Baseline Test Accuracy: {accuracy * 100:.2f}%")
+print(f"Train/Test Gap: {gap:.2f} percentage points")
 
 # Generate and print the confusion matrix
 classes = clf.classes_
