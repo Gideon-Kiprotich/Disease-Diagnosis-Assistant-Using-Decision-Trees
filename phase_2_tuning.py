@@ -86,7 +86,7 @@ print("\n" + "="*50 + "\n")
 print("=== Step 2: Retrain Best Estimator & Compare Overfitting Gap ===")
 
 # Retrain unconstrained baseline tree for fresh, dynamic comparison
-clf_baseline = DecisionTreeClassifier(random_state=42)
+clf_baseline = DecisionTreeClassifier(criterion="entropy", random_state=42)
 clf_baseline.fit(X_train, y_train)
 
 train_acc_base = accuracy_score(y_train, clf_baseline.predict(X_train))
@@ -267,6 +267,7 @@ for cancer in target_cancers:
     tree_ = clf_best.tree_
     print("\nDecision Tree Path Traversal:")
     
+    path_features = []
     for step_num, node_id in enumerate(node_indices, 1):
         if node_id == leaf_id:
             pred_class_idx = np.argmax(tree_.value[node_id])
@@ -276,6 +277,7 @@ for cancer in target_cancers:
         else:
             feat_idx = tree_.feature[node_id]
             feat_name = feature_cols[feat_idx]
+            path_features.append(feat_name)
             threshold = tree_.threshold[node_id]
             val = patient_data[feat_name]
             
@@ -286,12 +288,14 @@ for cancer in target_cancers:
                 
             print(f"  Step {step_num} [Node {node_id}]: Split on '{feat_name}' | Patient value: {val} {decision_str}")
 
-    # Plain-language explanation connecting traced decision path features to known clinical symptom profile
-    if cancer == "Breast Cancer":
-        print("\nClinical Rationale: This decision path makes strong clinical sense because the tree first splits on 'breast_lump' to immediately isolate localized breast pathology, followed by splits on biological sex and breast swelling to confirm a classic clinical presentation for breast malignancy.")
-    elif cancer == "Lung Cancer":
-        print("\nClinical Rationale: This decision path is clinically sound because after ruling out non-respiratory anchors, the tree evaluates primary alarm symptoms ('persistent_cough', 'coughing_blood'), which strongly point to pulmonary malignancy regardless of patient age.")
-    elif cancer == "Cervical Cancer":
-        print("\nClinical Rationale: This decision path aligns directly with clinical triage by identifying 'abnormal_vaginal_bleeding' as the cardinal pathognomonic marker for cervical cancer once non-gynecological symptoms like breast lumps are excluded.")
+    # Dynamic clinical rationale generated from actual traced path features
+    if path_features:
+        if len(path_features) == 1:
+            features_str = f"checking '{path_features[0]}'"
+        elif len(path_features) == 2:
+            features_str = f"first checking '{path_features[0]}', then '{path_features[1]}'"
+        else:
+            features_str = f"first checking '{path_features[0]}', then " + ", then ".join([f"'{f}'" for f in path_features[1:]])
+        print(f"\nClinical Rationale: The tree reached this diagnosis by {features_str}.")
 
 print("\n" + "="*50 + "\n")
