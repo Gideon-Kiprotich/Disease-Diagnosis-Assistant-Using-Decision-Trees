@@ -299,3 +299,258 @@ for cancer in target_cancers:
         print(f"\nClinical Rationale: The tree reached this diagnosis by {features_str}.")
 
 print("\n" + "="*50 + "\n")
+
+# %% [markdown]
+# ## Phase 2b: Cost-Sensitive Hyperparameter Tuning
+#
+# This section keeps the original tuned model intact and evaluates alternative
+# models that assign greater cost to cancer cases predicted as No Red Flags.
+
+# %%
+from sklearn.metrics import make_scorer
+import numpy as np
+
+CANCER_CLASSES = ["Breast Cancer", "Lung Cancer", "Cervical Cancer"]
+BENIGN_CLASS = "No Red Flags (Routine/Benign)"
+
+# This scorer counts a cancer-patient-classified-as-"No Red Flags" error as
+# fn_penalty times worse than a normal error, instead of treating all mistakes
+# equally like plain accuracy does.
+def make_cost_sensitive_scorer(fn_penalty):
+    def cost_sensitive_score(y_true, y_pred):
+        y_true = np.array(y_true)
+        y_pred = np.array(y_pred)
+        correct = (y_true == y_pred).sum()
+        is_false_negative = np.isin(y_true, CANCER_CLASSES) & (y_pred == BENIGN_CLASS)
+        penalty = is_false_negative.sum() * fn_penalty
+        return (correct - penalty) / len(y_true)
+    return make_scorer(cost_sensitive_score, greater_is_better=True)
+
+# The classes are already balanced, so adding a 'balanced' class weight would
+# duplicate the unweighted case. The explicit cancer weighting tests the
+# intended cost-sensitive alternative.
+cost_sensitive_param_grid = {
+    **param_grid,
+    "class_weight": [
+        None,
+        {
+            "Breast Cancer": 2,
+            "Lung Cancer": 2,
+            "Cervical Cancer": 2,
+            "No Red Flags (Routine/Benign)": 1,
+        },
+    ],
+}
+
+print("=== Phase 2b: Cost-Sensitive GridSearchCV ===")
+
+# Preserve the original Phase 2 tuned model as the comparison point.
+original_tuned_accuracy = test_acc_tuned
+original_tuned_false_negatives = false_negatives_cancer
+
+phase_2b_results = []
+for fn_penalty in [1, 1.5, 2, 2.5, 3]:
+    print(f"\n--- Running cost-sensitive search with fn_penalty={fn_penalty} ---")
+
+    cost_sensitive_search = GridSearchCV(
+        estimator=DecisionTreeClassifier(random_state=42),
+        param_grid=cost_sensitive_param_grid,
+        cv=5,
+        scoring=make_cost_sensitive_scorer(fn_penalty),
+        n_jobs=-1,
+        verbose=1,
+    )
+    cost_sensitive_search.fit(X_train, y_train)
+
+    cost_sensitive_model = cost_sensitive_search.best_estimator_
+    y_train_pred_cost_sensitive = cost_sensitive_model.predict(X_train)
+    y_pred_cost_sensitive = cost_sensitive_model.predict(X_test)
+    train_accuracy_cost_sensitive = accuracy_score(
+        y_train,
+        y_train_pred_cost_sensitive,
+    )
+    test_accuracy_cost_sensitive = accuracy_score(y_test, y_pred_cost_sensitive)
+    train_test_gap_cost_sensitive = (
+        train_accuracy_cost_sensitive - test_accuracy_cost_sensitive
+    ) * 100
+
+    cm_cost_sensitive = confusion_matrix(
+        y_test,
+        y_pred_cost_sensitive,
+        labels=classes,
+    )
+    cm_cost_sensitive_df = pd.DataFrame(
+        cm_cost_sensitive,
+        index=classes,
+        columns=classes,
+    )
+
+    # Reuse Phase 2 Step 3's cancer false-negative and benign false-positive
+    # counting logic so the comparison uses the same error definitions.
+    false_negatives_cost_sensitive = 0
+    false_positives_cost_sensitive = 0
+
+    for c in cancer_classes:
+        false_negatives_cost_sensitive += cm_cost_sensitive_df.loc[
+            c, BENIGN_CLASS
+        ]
+
+    for c in cancer_classes:
+        false_positives_cost_sensitive += cm_cost_sensitive_df.loc[
+            BENIGN_CLASS, c
+        ]
+
+    result = {
+        "fn_penalty": fn_penalty,
+        "best_params": cost_sensitive_search.best_params_,
+        "train_accuracy": train_accuracy_cost_sensitive,
+        "test_accuracy": test_accuracy_cost_sensitive,
+        "train_test_gap": train_test_gap_cost_sensitive,
+        "false_negatives": false_negatives_cost_sensitive,
+        "false_positives": false_positives_cost_sensitive,
+    }
+    phase_2b_results.append(result)
+
+    print(f"Best params found: {result['best_params']}")
+    print(f"Train accuracy: {result['train_accuracy'] * 100:.2f}%")
+    print(f"Overall test accuracy: {result['test_accuracy'] * 100:.2f}%")
+    print(f"Train/test gap: {result['train_test_gap']:.2f} percentage points")
+    print(f"Cancer false negatives: {result['false_negatives']}")
+    print(f"False positives: {result['false_positives']}")
+
+# %% [markdown]
+# ## Phase 2b Results: Accuracy and False-Negative Trade-off
+
+# %%
+penalty_values = [result["fn_penalty"] for result in phase_2b_results]
+accuracy_values = [result["test_accuracy"] * 100 for result in phase_2b_results]
+false_negative_values = [result["false_negatives"] for result in phase_2b_results]
+original_tuned_accuracy_percentage = original_tuned_accuracy * 100
+original_tuned_label = "Original tuned model (accuracy-only)"
+
+fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+
+axes[0].plot(
+    penalty_values,
+    accuracy_values,
+    marker="o",
+    linewidth=2,
+    label="Cost-sensitive model",
+)
+axes[0].axhline(
+    y=original_tuned_accuracy_percentage,
+    color="black",
+    linestyle="--",
+    linewidth=1.5,
+    label=original_tuned_label,
+)
+axes[0].set_title("Overall Test Accuracy")
+axes[0].set_xlabel("False-Negative Penalty")
+axes[0].set_ylabel("Accuracy (%)")
+axes[0].set_xticks(penalty_values)
+axes[0].grid(True)
+axes[0].legend()
+
+axes[1].plot(
+    penalty_values,
+    false_negative_values,
+    marker="o",
+    linewidth=2,
+    label="Cost-sensitive model",
+)
+axes[1].axhline(
+    y=original_tuned_false_negatives,
+    color="black",
+    linestyle="--",
+    linewidth=1.5,
+    label=original_tuned_label,
+)
+axes[1].set_title("Cancer False-Negative Count")
+axes[1].set_xlabel("False-Negative Penalty")
+axes[1].set_ylabel("Count")
+axes[1].set_xticks(penalty_values)
+axes[1].grid(True)
+axes[1].legend()
+
+fig.suptitle("Phase 2b Cost-Sensitive Tuning Trade-off")
+fig.tight_layout()
+fig.savefig("cost_sensitive_tradeoff.png", dpi=300)
+plt.show()
+plt.close(fig)
+
+# Use the original tuned model as the baseline for a plain-language comparison.
+first_false_negative_drop = next(
+    (
+        result
+        for result in phase_2b_results
+        if result["false_negatives"] < original_tuned_false_negatives
+    ),
+    None,
+)
+best_false_negative_result = min(
+    phase_2b_results,
+    key=lambda result: (result["false_negatives"], -result["test_accuracy"]),
+)
+
+print("\n--- Plain-Language Phase 2b Interpretation ---")
+if first_false_negative_drop is None:
+    print(
+        f"Across the tested penalty values, the cancer false-negative count did "
+        f"not drop below the original tuned model's count of "
+        f"{original_tuned_false_negatives}."
+    )
+else:
+    accuracy_cost = (
+        original_tuned_accuracy - first_false_negative_drop["test_accuracy"]
+    ) * 100
+    print(
+        f"The first observed drop in cancer false negatives occurs at a penalty "
+        f"of {first_false_negative_drop['fn_penalty']}, decreasing the count from "
+        f"{original_tuned_false_negatives} to "
+        f"{first_false_negative_drop['false_negatives']}. The corresponding "
+        f"accuracy changes from {original_tuned_accuracy * 100:.2f}% to "
+        f"{first_false_negative_drop['test_accuracy'] * 100:.2f}%, a cost of "
+        f"{accuracy_cost:.2f} percentage points."
+    )
+
+best_false_negative_count = best_false_negative_result["false_negatives"]
+min_fn_penalty = best_false_negative_result["fn_penalty"]
+plateau_results = [
+    result
+    for result in phase_2b_results
+    if result["fn_penalty"] > min_fn_penalty
+]
+is_plateaued = len(plateau_results) > 0 and all(
+    result["false_negatives"] == best_false_negative_count
+    for result in plateau_results
+)
+
+if is_plateaued:
+    accuracy_reference = (
+        first_false_negative_drop["test_accuracy"]
+        if first_false_negative_drop is not None
+        else original_tuned_accuracy
+    )
+    accuracy_reference_label = (
+        "the first reduction"
+        if first_false_negative_drop is not None
+        else "the original tuned model"
+    )
+    additional_accuracy_cost = (
+        accuracy_reference - best_false_negative_result["test_accuracy"]
+    ) * 100
+    print(
+        f"The lowest observed cancer false-negative count is "
+        f"{best_false_negative_result['false_negatives']} at a penalty of "
+        f"{best_false_negative_result['fn_penalty']}. Higher penalties do not "
+        f"reduce that count further, indicating diminishing returns; they add "
+        f"{additional_accuracy_cost:.2f} additional accuracy-loss percentage "
+        f"points relative to {accuracy_reference_label}."
+    )
+else:
+    print(
+        f"The lowest observed cancer false-negative count is "
+        f"{best_false_negative_result['false_negatives']} at a penalty of "
+        f"{best_false_negative_result['fn_penalty']}. The tested range does not "
+        f"yet show a clear point of diminishing returns."
+    )
