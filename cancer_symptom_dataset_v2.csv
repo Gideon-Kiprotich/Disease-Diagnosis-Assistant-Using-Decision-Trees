@@ -1,0 +1,1201 @@
+patient_id,age,sex,unexplained_weight_loss,fatigue,night_sweats,persistent_pain,breast_lump,breast_skin_changes,nipple_discharge,nipple_inversion,breast_swelling,persistent_cough,coughing_blood,chest_pain,shortness_of_breath,hoarseness,abnormal_vaginal_bleeding,unusual_vaginal_discharge,pelvic_pain,diagnosis,subpattern
+1179,56,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+866,22,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+102,58,F,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+440,68,M,1,1,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,Lung Cancer,n/a
+59,70,F,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1121,49,F,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+324,70,F,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,Lung Cancer,n/a
+975,88,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+412,22,M,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+856,86,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+821,82,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+45,78,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+50,89,F,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+850,41,F,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,Cervical Cancer,n/a
+241,37,F,0,1,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+171,52,F,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+524,25,F,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,Lung Cancer,n/a
+766,43,F,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,1,0,Cervical Cancer,n/a
+839,87,F,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+424,85,M,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+381,32,F,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+610,45,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+677,59,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+345,85,M,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+110,50,F,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+278,48,F,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+678,51,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Cervical Cancer,n/a
+571,89,M,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+359,33,F,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+599,46,F,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+391,47,F,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+894,82,F,1,1,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,Cervical Cancer,n/a
+693,70,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+728,58,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+363,89,M,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Lung Cancer,n/a
+597,37,M,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+428,54,F,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+71,78,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+322,52,M,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+653,30,F,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,Cervical Cancer,n/a
+1066,79,F,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+108,24,F,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1109,20,M,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+356,89,F,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,Lung Cancer,n/a
+951,42,F,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+343,84,M,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+355,46,F,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+24,51,F,0,1,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,Breast Cancer,n/a
+44,65,F,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+244,81,F,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+738,50,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1136,65,F,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+368,76,F,1,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,Lung Cancer,n/a
+164,73,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1116,87,F,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+333,64,M,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+989,36,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1173,60,M,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1002,70,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+378,70,M,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+310,28,M,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+156,56,F,0,1,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+211,55,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+87,62,F,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+169,35,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+995,59,M,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+52,69,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+439,75,M,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+550,82,M,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,Lung Cancer,n/a
+491,67,M,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+426,59,F,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+136,24,F,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Breast Cancer,n/a
+1192,26,M,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+55,33,F,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,Breast Cancer,n/a
+79,39,M,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+431,50,F,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+185,73,F,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+57,57,F,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,Breast Cancer,n/a
+943,65,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+851,46,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1164,66,M,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+219,58,F,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+845,40,F,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+114,29,F,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+549,50,M,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+1019,84,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+1073,76,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+175,88,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1023,60,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,No Red Flags (Routine/Benign),generic_mild
+616,30,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+514,51,F,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+462,62,F,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+287,51,F,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+382,74,M,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,Lung Cancer,n/a
+1008,79,M,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+671,58,F,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,1,0,Cervical Cancer,n/a
+535,59,F,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Lung Cancer,n/a
+910,68,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+293,45,F,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+124,24,F,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+583,21,F,1,0,0,0,1,1,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+141,76,F,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+736,83,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+82,50,F,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+882,32,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+740,78,F,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,Cervical Cancer,n/a
+1102,78,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+909,87,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1167,39,F,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+937,58,M,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+372,27,F,0,1,0,0,0,0,0,0,0,1,1,1,0,1,1,0,0,Lung Cancer,n/a
+890,59,F,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,Cervical Cancer,n/a
+157,72,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+992,78,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+622,53,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+1038,50,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+245,44,M,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+159,62,F,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+746,85,F,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Cervical Cancer,n/a
+193,60,F,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+534,31,M,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+904,24,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1004,43,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+1070,55,M,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+414,58,M,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+1187,40,F,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+328,76,F,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+129,56,F,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+695,61,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+631,37,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+275,44,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1148,78,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+309,82,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+234,56,F,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,Breast Cancer,n/a
+1048,87,M,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+623,39,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+644,27,F,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+479,87,M,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+472,86,M,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+926,50,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1098,38,M,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+627,31,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+395,77,M,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+637,33,F,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+768,37,F,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+533,63,M,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,Lung Cancer,n/a
+718,66,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+667,30,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+598,36,F,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+482,75,F,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Lung Cancer,n/a
+1103,47,M,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+315,36,F,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,Lung Cancer,n/a
+729,31,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+210,75,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+934,42,F,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+434,34,M,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+329,34,M,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+261,64,F,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1117,67,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+307,48,F,1,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,Lung Cancer,n/a
+1067,41,M,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+928,68,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1025,87,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+271,20,F,0,1,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+291,52,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+813,83,F,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,Cervical Cancer,n/a
+97,70,F,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+888,69,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+819,34,F,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+32,47,F,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+763,39,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+954,89,M,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+320,78,F,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+299,35,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+200,20,F,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,Breast Cancer,n/a
+561,72,F,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+179,88,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1132,26,M,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+89,67,F,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+788,46,F,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+725,43,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+827,52,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+209,36,F,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+1040,82,M,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+297,57,F,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+998,49,M,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+498,48,F,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+835,28,F,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+430,72,M,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,Lung Cancer,n/a
+507,85,M,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,Lung Cancer,n/a
+831,65,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+694,66,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+11,70,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+848,25,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+463,84,F,0,1,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,Lung Cancer,n/a
+199,76,F,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+60,86,F,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,Breast Cancer,n/a
+907,22,M,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+997,84,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+276,62,F,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,Breast Cancer,n/a
+809,50,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+908,46,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+658,25,F,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Cervical Cancer,n/a
+957,29,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+886,66,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+221,80,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+789,69,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+712,46,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+714,80,F,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1113,58,M,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1191,66,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+790,66,F,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+416,52,M,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+899,72,F,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,Cervical Cancer,n/a
+935,70,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+266,87,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+632,49,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+248,73,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+683,69,F,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+559,70,M,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+1137,72,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,No Red Flags (Routine/Benign),generic_mild
+968,37,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+1005,50,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+985,24,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+295,57,F,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,Breast Cancer,n/a
+520,26,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+771,40,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+84,57,F,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+232,68,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+621,24,F,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+334,42,M,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,Lung Cancer,n/a
+130,39,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1012,41,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+645,40,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+974,39,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+383,39,F,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+868,32,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+543,23,M,0,0,0,1,0,0,1,0,0,1,1,0,1,1,0,0,0,Lung Cancer,n/a
+1194,37,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+875,39,F,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+332,41,F,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,Lung Cancer,n/a
+410,67,F,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Lung Cancer,n/a
+77,85,F,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,Breast Cancer,n/a
+869,82,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+139,69,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+544,69,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+674,52,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+921,38,M,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+64,82,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+142,24,F,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Breast Cancer,n/a
+717,22,F,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,Cervical Cancer,n/a
+377,84,M,0,0,0,0,0,1,0,0,0,1,1,1,0,1,0,0,1,Lung Cancer,n/a
+364,30,F,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Lung Cancer,n/a
+140,54,F,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+885,22,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1042,80,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+225,22,F,0,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+515,69,M,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+267,54,F,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+1170,22,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+487,33,F,0,1,0,0,0,1,0,1,0,1,0,1,1,0,1,0,0,Lung Cancer,n/a
+353,46,M,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+1006,71,M,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+618,54,F,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,Cervical Cancer,n/a
+668,54,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+775,22,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+554,37,M,1,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+576,58,M,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+915,29,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+466,86,M,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,Lung Cancer,n/a
+591,76,M,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+765,52,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+635,81,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Cervical Cancer,n/a
+838,58,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,Cervical Cancer,n/a
+290,70,F,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+40,75,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+31,56,F,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,Breast Cancer,n/a
+243,46,F,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+429,78,M,0,1,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+137,74,F,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1101,55,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+865,46,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+4,79,F,1,0,0,1,1,0,0,1,1,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+833,31,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+603,64,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+1034,52,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+655,40,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+844,68,F,0,1,0,1,0,0,1,0,0,1,1,0,0,0,1,1,1,Cervical Cancer,n/a
+784,82,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1074,27,M,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+443,67,F,0,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,0,Lung Cancer,n/a
+1178,24,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+436,45,F,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Lung Cancer,n/a
+1169,58,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+101,65,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+773,56,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+495,60,F,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+1028,86,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+807,86,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+1142,33,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+846,24,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+987,23,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+228,37,F,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1193,81,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+672,56,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+859,36,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+925,38,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+67,20,F,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+68,70,F,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+817,30,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+212,71,M,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+13,40,F,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+494,45,F,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+1165,51,F,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+300,74,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+411,71,M,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,Lung Cancer,n/a
+757,48,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1075,68,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+696,80,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+1151,39,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+724,47,F,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+1016,70,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+528,87,M,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+600,28,F,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Lung Cancer,n/a
+1120,70,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+567,20,F,1,1,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+731,41,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+274,23,F,1,0,0,0,1,1,1,0,0,0,1,0,0,1,0,0,0,Breast Cancer,n/a
+967,54,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+238,49,F,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+406,47,M,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,Lung Cancer,n/a
+3,89,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+7,21,F,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,Breast Cancer,n/a
+312,76,F,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,Lung Cancer,n/a
+1091,34,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+452,52,F,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,Lung Cancer,n/a
+722,36,F,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,Cervical Cancer,n/a
+216,48,F,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1086,57,M,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+28,31,F,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1158,84,F,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+362,71,M,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,Lung Cancer,n/a
+823,66,F,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+781,72,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+629,24,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+454,43,M,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+739,57,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+536,68,M,0,0,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+1050,69,M,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+399,43,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+257,71,F,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+292,71,F,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+26,83,F,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+337,25,M,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+585,78,M,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+48,88,F,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+319,40,F,1,0,0,0,0,0,0,0,1,1,0,1,1,1,0,0,0,Lung Cancer,n/a
+107,76,F,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+799,43,F,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,Cervical Cancer,n/a
+56,61,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+523,31,M,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+214,73,F,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+121,71,F,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+918,82,M,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1068,31,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1118,30,M,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+73,36,F,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+948,28,M,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+747,46,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+716,54,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+558,39,F,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,Lung Cancer,n/a
+1082,56,F,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+1046,62,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+553,59,M,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,Lung Cancer,n/a
+562,41,F,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,Lung Cancer,n/a
+425,56,M,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+1014,69,M,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+326,62,M,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+924,77,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+317,77,M,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+804,89,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1163,58,F,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+529,51,F,0,1,0,1,0,0,0,1,0,1,1,0,0,1,0,0,1,Lung Cancer,n/a
+837,54,F,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+715,82,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+901,33,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+61,40,F,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+723,62,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,Cervical Cancer,n/a
+93,88,F,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+858,27,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+619,83,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,Cervical Cancer,n/a
+352,65,F,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,Lung Cancer,n/a
+933,28,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+281,76,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+421,54,F,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+1115,31,F,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+360,66,F,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0,Lung Cancer,n/a
+423,42,M,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+679,63,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+527,47,M,1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+478,50,M,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,Lung Cancer,n/a
+1095,34,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+183,43,F,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,Breast Cancer,n/a
+1092,20,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+433,59,M,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+111,26,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+371,23,M,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Lung Cancer,n/a
+240,85,F,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+709,27,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+630,54,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+594,79,M,0,0,0,1,0,0,1,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+486,25,F,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+701,66,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+262,75,F,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+480,73,F,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+650,86,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+340,56,M,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Lung Cancer,n/a
+669,36,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+552,33,M,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,Lung Cancer,n/a
+459,40,M,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+184,70,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+138,83,F,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1161,30,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+707,81,F,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,Cervical Cancer,n/a
+582,45,F,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+81,46,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+769,60,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+870,77,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+762,38,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+30,50,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+542,70,F,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+166,32,F,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+249,34,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+308,58,F,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+448,21,M,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,Lung Cancer,n/a
+347,62,F,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+335,46,M,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+286,87,F,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,0,0,Breast Cancer,n/a
+950,66,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+98,27,F,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+468,84,F,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,Lung Cancer,n/a
+1037,83,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,No Red Flags (Routine/Benign),breast_lookalike
+913,41,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),generic_mild
+756,38,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+945,85,M,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+614,86,F,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+802,38,F,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,Cervical Cancer,n/a
+758,47,F,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,Cervical Cancer,n/a
+689,83,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+66,78,F,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+794,70,F,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,Cervical Cancer,n/a
+744,42,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+568,32,F,1,0,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+1084,21,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,No Red Flags (Routine/Benign),generic_mild
+1099,44,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+303,69,F,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+255,63,F,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+959,24,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1024,20,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+313,79,F,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+530,83,M,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,Lung Cancer,n/a
+222,61,F,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+389,72,M,0,1,0,1,0,0,0,0,0,1,1,1,1,1,0,0,0,Lung Cancer,n/a
+236,45,F,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+810,25,F,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+483,64,M,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,Lung Cancer,n/a
+713,80,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+306,87,M,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+1111,71,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1090,85,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),generic_mild
+772,59,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+917,67,M,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1139,76,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+250,58,F,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,Breast Cancer,n/a
+760,60,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,Cervical Cancer,n/a
+595,73,F,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,1,0,Lung Cancer,n/a
+72,74,F,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+95,76,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+546,63,M,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+34,49,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+862,88,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+579,70,M,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+449,53,M,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,Lung Cancer,n/a
+446,55,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+260,42,F,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+205,66,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+573,89,F,0,1,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,Lung Cancer,n/a
+824,22,F,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,Cervical Cancer,n/a
+586,77,F,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+366,34,M,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+812,78,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+78,80,F,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+85,70,F,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+539,25,F,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,Lung Cancer,n/a
+83,56,F,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+458,32,F,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,Lung Cancer,n/a
+1138,77,M,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+615,31,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1186,76,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1076,21,F,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+737,89,F,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+437,65,F,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+555,66,F,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,Lung Cancer,n/a
+1080,81,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,No Red Flags (Routine/Benign),generic_mild
+1062,48,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+351,82,F,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+197,36,F,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+465,33,F,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+589,36,M,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,Lung Cancer,n/a
+6,60,F,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+311,50,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+662,25,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+405,30,F,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,Lung Cancer,n/a
+1196,70,F,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+1044,26,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+1058,63,M,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+105,75,F,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+537,59,F,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+606,74,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+63,38,F,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+282,36,F,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1056,65,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+239,89,F,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+224,43,F,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+146,85,F,0,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,Breast Cancer,n/a
+1119,28,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+374,82,M,1,0,0,1,1,0,1,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+119,36,F,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+803,50,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+251,88,F,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1157,33,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+10,49,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+450,20,F,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+874,57,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,Cervical Cancer,n/a
+390,45,F,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+966,64,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+461,76,F,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+1147,81,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+145,43,F,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+502,43,F,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+1108,34,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,No Red Flags (Routine/Benign),breast_lookalike
+540,23,M,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+178,46,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1159,82,M,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1051,41,F,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+584,51,F,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,Lung Cancer,n/a
+1195,72,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+8,70,F,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+574,37,M,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+843,69,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+358,54,F,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+330,32,F,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Lung Cancer,n/a
+705,81,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+830,77,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,Cervical Cancer,n/a
+259,23,F,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+891,50,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+834,24,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+1188,33,F,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,No Red Flags (Routine/Benign),generic_mild
+905,37,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+526,66,M,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+814,84,F,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+732,58,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+1032,52,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1141,85,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+441,34,M,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+532,70,M,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Lung Cancer,n/a
+960,77,M,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+229,20,F,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1041,28,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+213,68,F,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,Breast Cancer,n/a
+80,31,F,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+149,61,F,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+592,56,M,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+708,70,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+590,48,F,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+134,51,F,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+782,82,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+409,43,M,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+970,74,M,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+508,50,F,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+877,79,F,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,Cervical Cancer,n/a
+505,27,M,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+719,44,F,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+348,63,M,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,Lung Cancer,n/a
+387,75,M,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+1,65,F,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+361,47,F,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Lung Cancer,n/a
+1134,40,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+476,73,F,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+778,62,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+754,57,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+173,20,F,0,1,0,0,1,1,1,0,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+451,45,M,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0,Lung Cancer,n/a
+126,39,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+931,75,F,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+531,80,M,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+91,37,F,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,Breast Cancer,n/a
+1162,72,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+182,63,F,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1027,59,F,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1000,69,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,No Red Flags (Routine/Benign),generic_mild
+252,81,F,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+70,27,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+132,29,F,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+301,43,M,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,Lung Cancer,n/a
+1133,52,F,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+327,56,M,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,Lung Cancer,n/a
+1020,36,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+500,84,M,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,Lung Cancer,n/a
+666,66,F,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+919,63,F,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+496,57,M,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+339,84,M,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+964,34,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+165,28,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+29,57,F,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+517,81,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+194,33,F,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,Breast Cancer,n/a
+1104,30,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+170,36,F,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1059,21,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+174,29,F,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+519,25,M,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+969,83,M,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+702,54,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+492,20,F,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+74,38,F,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+981,41,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+588,34,M,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,Lung Cancer,n/a
+235,64,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+215,55,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+947,88,M,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),generic_mild
+133,39,F,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1156,29,F,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+733,62,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+941,89,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+186,23,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+42,53,F,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+109,25,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+849,40,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+569,43,M,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+651,37,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+1001,24,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1166,66,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+484,24,F,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,Lung Cancer,n/a
+469,39,F,0,0,0,0,1,0,1,1,1,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+25,88,F,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+661,66,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+680,61,F,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,Cervical Cancer,n/a
+753,41,F,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Cervical Cancer,n/a
+994,48,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+367,31,F,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+840,86,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+1053,69,M,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+384,75,M,1,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,0,Lung Cancer,n/a
+455,79,M,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,Lung Cancer,n/a
+265,30,F,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+761,22,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+980,56,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+445,52,F,1,1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+396,78,F,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+742,51,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+177,36,F,0,0,0,0,1,0,1,0,1,1,0,1,0,0,0,0,0,Breast Cancer,n/a
+19,71,F,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+949,28,M,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+815,66,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+596,88,M,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Lung Cancer,n/a
+62,72,F,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+273,52,F,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,Breast Cancer,n/a
+1126,29,M,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+279,76,F,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,Breast Cancer,n/a
+842,49,F,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,Cervical Cancer,n/a
+369,21,F,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+887,56,F,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,Cervical Cancer,n/a
+1015,54,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+860,72,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+721,66,F,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,Cervical Cancer,n/a
+826,78,F,0,1,0,1,0,1,0,1,0,1,0,0,0,0,1,1,0,Cervical Cancer,n/a
+548,22,M,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,Lung Cancer,n/a
+880,63,F,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,Cervical Cancer,n/a
+900,66,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+457,51,M,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+394,59,M,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+676,78,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+912,28,M,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+965,21,F,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+376,41,M,1,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,Lung Cancer,n/a
+413,78,M,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+75,24,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1122,58,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+863,56,F,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+501,86,M,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Lung Cancer,n/a
+942,59,F,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+617,43,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+115,43,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+418,42,M,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+602,48,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+605,22,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+90,33,F,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1149,42,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),generic_mild
+499,32,M,0,0,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,Lung Cancer,n/a
+876,22,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+927,68,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+999,41,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+12,73,F,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+397,83,F,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,Lung Cancer,n/a
+755,47,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+556,71,F,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+43,70,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+168,21,F,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+417,73,F,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+577,38,M,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+268,69,F,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+808,86,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+427,60,M,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+691,20,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+545,55,M,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+1123,73,F,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+675,69,F,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,Cervical Cancer,n/a
+690,65,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1055,74,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,No Red Flags (Routine/Benign),generic_mild
+1177,89,M,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1033,76,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1035,82,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+258,49,F,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+336,63,M,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+16,45,F,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+902,25,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+325,75,M,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+608,59,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1054,38,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+791,89,F,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+223,27,F,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+180,36,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+100,50,F,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+522,47,F,0,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,Lung Cancer,n/a
+23,58,F,0,0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,0,Breast Cancer,n/a
+357,21,M,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,Lung Cancer,n/a
+734,83,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1094,28,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1112,87,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+612,28,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+1010,80,M,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+341,70,M,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+432,45,F,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,1,Lung Cancer,n/a
+962,61,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+218,55,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+204,71,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+906,28,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+923,51,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+94,73,F,0,1,1,1,0,0,1,1,1,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+911,59,F,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+69,44,F,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+895,67,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+285,24,F,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+697,35,F,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Cervical Cancer,n/a
+86,62,F,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+435,29,F,1,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+797,25,F,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+154,42,F,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+76,40,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1043,56,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+581,45,F,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,1,Lung Cancer,n/a
+447,22,M,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+704,61,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+189,23,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+272,42,F,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+237,47,F,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+488,68,M,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Lung Cancer,n/a
+1160,78,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+560,47,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+118,53,F,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+638,77,F,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+1128,48,M,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+751,76,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+513,73,F,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+634,29,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Cervical Cancer,n/a
+786,70,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1007,77,M,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+853,57,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+127,85,F,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+117,56,F,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+474,56,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,Lung Cancer,n/a
+741,75,F,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,Cervical Cancer,n/a
+993,64,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+58,30,F,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+604,76,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+787,31,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+971,25,F,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),generic_mild
+657,60,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+903,37,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,No Red Flags (Routine/Benign),breast_lookalike
+922,36,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+106,57,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+636,71,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+370,20,F,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+269,56,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+656,89,F,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+47,29,F,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+350,49,F,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,Lung Cancer,n/a
+774,23,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+196,62,F,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+103,70,F,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+5,31,F,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+620,62,F,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,Cervical Cancer,n/a
+991,77,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+53,47,F,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+264,37,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1093,23,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+444,50,M,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+972,53,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+783,41,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+847,34,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+692,36,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+305,84,M,1,1,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+342,31,M,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+867,69,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+314,56,F,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+150,81,F,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+125,61,F,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+1063,35,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+575,26,M,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+698,26,F,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+665,80,F,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+51,85,F,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+727,43,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+800,36,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+354,47,F,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+1153,34,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+143,32,F,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+471,79,M,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+654,73,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+400,80,F,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,Lung Cancer,n/a
+1154,75,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+938,26,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+321,88,M,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,Lung Cancer,n/a
+20,71,F,0,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+685,40,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Cervical Cancer,n/a
+36,38,F,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+825,42,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+506,35,M,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+828,87,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+1071,25,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+408,25,M,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+818,41,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+538,78,F,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+759,76,F,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1069,64,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+893,42,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+39,81,F,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+176,46,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+246,84,F,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+811,53,F,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,Cervical Cancer,n/a
+1085,20,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+1078,75,F,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+785,22,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1185,44,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),generic_mild
+490,58,M,1,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+155,85,F,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+639,79,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+663,21,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+854,55,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+288,44,F,0,0,1,1,1,0,0,0,0,0,1,1,0,1,0,0,0,Breast Cancer,n/a
+626,79,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1200,68,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+686,33,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+873,89,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+570,73,F,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+1144,51,M,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+735,50,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+793,69,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+18,57,F,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+128,54,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,Breast Cancer,n/a
+323,54,F,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,Lung Cancer,n/a
+256,69,F,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+944,42,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1180,25,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+191,45,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+116,45,F,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1174,89,F,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+889,44,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+607,62,F,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Cervical Cancer,n/a
+181,58,F,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,Breast Cancer,n/a
+302,51,M,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+497,63,M,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Lung Cancer,n/a
+349,65,F,0,0,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+1036,57,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+983,21,M,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+745,44,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+1152,58,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+518,20,F,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Lung Cancer,n/a
+373,59,F,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+46,83,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+477,82,M,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+158,20,F,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+1047,75,M,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+172,83,F,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+17,72,F,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,Breast Cancer,n/a
+512,27,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+49,24,F,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+192,62,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+547,31,M,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,Lung Cancer,n/a
+516,84,F,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+978,47,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+939,29,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+829,64,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+984,70,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+481,89,M,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,Lung Cancer,n/a
+1129,38,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+284,23,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1030,57,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+798,36,F,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+940,88,M,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+226,24,F,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+27,56,F,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+283,21,F,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+1150,20,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+438,41,F,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,Lung Cancer,n/a
+1168,38,M,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+365,33,F,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+230,80,F,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+38,61,F,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+670,24,F,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,Cervical Cancer,n/a
+750,58,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+1181,24,M,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+375,21,M,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,Lung Cancer,n/a
+470,77,F,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+883,70,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1182,58,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+688,88,F,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+33,32,F,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+1011,49,M,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1176,52,F,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+195,75,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1106,84,F,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1114,87,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1064,50,M,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+504,48,M,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+916,49,M,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+977,68,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+1183,21,F,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1088,49,M,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+801,87,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+580,84,M,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,Lung Cancer,n/a
+161,56,F,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+681,60,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+1198,83,M,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+163,40,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+822,51,F,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+706,21,F,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+1009,56,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+878,66,F,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,1,Cervical Cancer,n/a
+896,87,F,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Cervical Cancer,n/a
+914,46,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1199,58,F,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+153,40,F,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+979,86,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+1003,69,M,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+510,20,M,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+112,76,F,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+227,50,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+986,74,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+852,78,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+104,51,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+422,48,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Lung Cancer,n/a
+420,24,M,0,1,1,1,0,0,0,0,0,1,1,1,0,1,0,0,0,Lung Cancer,n/a
+625,42,F,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,Cervical Cancer,n/a
+587,24,M,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,Lung Cancer,n/a
+1061,48,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+920,41,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+673,58,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+120,25,F,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Breast Cancer,n/a
+54,64,F,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+152,62,F,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+404,81,M,0,1,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,Lung Cancer,n/a
+1189,49,M,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+208,41,F,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1135,87,M,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+659,50,F,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,Cervical Cancer,n/a
+1097,35,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+233,42,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+9,86,F,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+160,23,F,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+37,22,F,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,Breast Cancer,n/a
+453,36,M,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+652,79,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+254,70,F,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Breast Cancer,n/a
+304,22,M,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+897,73,F,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+1049,88,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+881,35,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+572,51,M,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,Lung Cancer,n/a
+624,78,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1145,70,F,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1031,21,F,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1146,48,F,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+263,27,F,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+611,89,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+298,74,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+990,71,F,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+415,84,M,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,Lung Cancer,n/a
+151,84,F,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+946,51,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+473,31,F,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,Lung Cancer,n/a
+953,86,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+988,63,F,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+779,81,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+641,63,F,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+1190,88,F,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1143,84,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+551,30,M,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,Lung Cancer,n/a
+640,76,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+936,25,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+929,53,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+489,76,F,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+820,88,F,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+711,64,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+1081,81,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+148,23,F,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+147,43,F,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,Breast Cancer,n/a
+1175,41,M,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+963,38,F,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+346,80,M,0,1,1,0,1,0,0,0,0,1,1,1,1,0,0,0,0,Lung Cancer,n/a
+403,59,M,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+932,75,F,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+955,36,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+1125,62,M,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+660,40,F,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,Cervical Cancer,n/a
+464,77,M,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,Lung Cancer,n/a
+187,77,F,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+609,48,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+144,42,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+752,32,F,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+982,56,F,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+198,83,F,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,Breast Cancer,n/a
+884,45,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+280,23,F,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+294,50,F,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+1089,46,M,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+401,63,M,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+123,42,F,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+203,31,F,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,Breast Cancer,n/a
+836,73,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cervical Cancer,n/a
+247,87,F,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1140,78,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+385,80,M,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+855,82,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+220,55,F,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+642,69,F,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,Cervical Cancer,n/a
+2,50,F,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+113,65,F,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+699,45,F,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,Cervical Cancer,n/a
+952,69,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+1079,60,F,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+442,48,F,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+664,20,F,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Cervical Cancer,n/a
+1197,88,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+318,73,M,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+649,22,F,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+710,56,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+973,52,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+628,40,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+633,80,F,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,Cervical Cancer,n/a
+1172,77,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1107,59,F,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+796,75,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+646,22,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1013,78,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+557,40,F,1,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,Lung Cancer,n/a
+682,88,F,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,Cervical Cancer,n/a
+578,45,M,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Lung Cancer,n/a
+525,76,F,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+1060,74,M,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+541,34,M,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+749,40,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+1110,42,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+485,78,M,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+96,40,F,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+1021,34,M,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+564,53,M,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,Lung Cancer,n/a
+743,25,F,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,Cervical Cancer,n/a
+864,78,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+892,60,F,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,Cervical Cancer,n/a
+1039,51,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+207,42,F,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+393,40,F,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Lung Cancer,n/a
+795,40,F,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+871,85,F,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,Cervical Cancer,n/a
+398,27,F,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,Lung Cancer,n/a
+767,65,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,Cervical Cancer,n/a
+1100,61,F,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+1029,67,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+643,88,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+613,37,F,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,Cervical Cancer,n/a
+961,56,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,No Red Flags (Routine/Benign),generic_mild
+726,37,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+684,40,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+99,39,F,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,Breast Cancer,n/a
+805,26,F,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Cervical Cancer,n/a
+407,89,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Lung Cancer,n/a
+503,59,F,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,Lung Cancer,n/a
+1072,38,M,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1057,40,F,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+930,34,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+780,46,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+201,76,F,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+135,48,F,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,1,Breast Cancer,n/a
+1052,84,M,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+41,73,F,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1018,84,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,No Red Flags (Routine/Benign),generic_mild
+231,75,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Breast Cancer,n/a
+379,62,M,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,Lung Cancer,n/a
+289,51,F,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+419,47,F,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,Lung Cancer,n/a
+392,73,F,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,Lung Cancer,n/a
+593,39,F,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+1087,89,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+648,54,F,1,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,1,Cervical Cancer,n/a
+521,60,F,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Lung Cancer,n/a
+65,61,F,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+15,56,F,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,Breast Cancer,n/a
+1065,71,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,No Red Flags (Routine/Benign),generic_mild
+493,62,F,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+380,46,M,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+188,71,F,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+764,34,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+217,64,F,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+792,82,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+1077,55,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+879,30,F,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+338,78,F,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,Lung Cancer,n/a
+720,72,F,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,Cervical Cancer,n/a
+296,84,F,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1017,38,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+456,85,M,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+816,41,F,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1,0,1,Cervical Cancer,n/a
+270,85,F,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+996,86,M,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,No Red Flags (Routine/Benign),gyn_lookalike
+202,37,F,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+162,46,F,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+730,41,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+402,84,M,0,1,1,0,0,1,0,0,1,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+703,77,F,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Cervical Cancer,n/a
+1130,27,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),breast_lookalike
+566,21,M,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+1022,49,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1026,25,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1105,71,M,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),generic_mild
+206,77,F,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+35,63,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+776,27,F,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+509,78,F,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+1184,85,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+92,58,F,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+898,89,F,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+565,44,F,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+777,26,F,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,Cervical Cancer,n/a
+242,45,F,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,Breast Cancer,n/a
+14,79,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+316,27,M,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,Lung Cancer,n/a
+601,38,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+388,28,M,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Lung Cancer,n/a
+167,57,F,0,0,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,Breast Cancer,n/a
+841,87,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,Cervical Cancer,n/a
+21,61,M,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+647,63,F,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+1155,50,M,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+832,64,F,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,Cervical Cancer,n/a
+563,28,M,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,Lung Cancer,n/a
+1171,35,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No Red Flags (Routine/Benign),generic_mild
+687,42,F,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+958,68,F,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+190,29,F,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,1,Breast Cancer,n/a
+976,36,M,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+700,61,F,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cervical Cancer,n/a
+511,41,M,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,Lung Cancer,n/a
+1083,39,F,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+475,31,F,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Lung Cancer,n/a
+857,86,F,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+748,37,F,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,Cervical Cancer,n/a
+253,83,F,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+22,67,F,0,0,0,0,1,0,0,0,1,1,0,0,0,1,0,0,0,Breast Cancer,n/a
+460,25,F,1,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,Lung Cancer,n/a
+277,32,F,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+956,62,M,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+386,26,M,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+806,86,F,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,Cervical Cancer,n/a
+344,80,M,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Lung Cancer,n/a
+770,48,F,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,Cervical Cancer,n/a
+131,60,F,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,Breast Cancer,n/a
+872,84,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cervical Cancer,n/a
+1124,54,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+88,63,F,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+331,77,M,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Lung Cancer,n/a
+467,46,M,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,Lung Cancer,n/a
+122,82,F,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,Breast Cancer,n/a
+1045,75,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,No Red Flags (Routine/Benign),gyn_lookalike
+1096,54,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+1131,39,M,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild
+861,26,F,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,Cervical Cancer,n/a
+1127,61,F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No Red Flags (Routine/Benign),generic_mild

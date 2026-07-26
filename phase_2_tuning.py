@@ -212,6 +212,38 @@ print("Saved visualization artifacts: 'tuned_tree.png' and 'feature_importance.p
 print("\n" + "="*50 + "\n")
 
 # %% [markdown]
+# ## Shared Decision-Path Tracing Helper
+#
+# Keeping this traversal in one function ensures the walkthroughs and the
+# interactive interface explain model decisions using the same tree logic.
+
+# %%
+def trace_decision_path(model, patient_row, feature_cols, classes):
+    """Return decision steps and the final class predicted for one patient."""
+    node_indicator = model.decision_path(patient_row)
+    leaf_id = model.apply(patient_row)[0]
+    node_indices = node_indicator.indices[
+        node_indicator.indptr[0]:node_indicator.indptr[1]
+    ]
+
+    tree_ = model.tree_
+    patient_data = patient_row.iloc[0]
+    steps = []
+    for node_id in node_indices:
+        if node_id == leaf_id:
+            continue
+
+        feature_index = tree_.feature[node_id]
+        feature_name = feature_cols[feature_index]
+        patient_value = patient_data[feature_name]
+        threshold = tree_.threshold[node_id]
+        direction = "left" if patient_value <= threshold else "right"
+        steps.append((feature_name, patient_value, threshold, direction))
+
+    final_predicted_class = model.predict(patient_row)[0]
+    return steps, final_predicted_class
+
+# %% [markdown]
 # ## Step 5: Patient Walkthroughs & Decision Path Traversal
 # RATIONALE: To demonstrate clinical transparency and interpretability, we select 3 correctly classified patients from the test set (one each for Breast Cancer, Lung Cancer, and Cervical Cancer) and trace the step-by-step decision rules traversed by the tree.
 
@@ -259,36 +291,26 @@ for cancer in target_cancers:
                 present_symptoms.append(col)
     print(f"  - Present Symptoms ({len(present_symptoms)}): {', '.join(present_symptoms) if present_symptoms else 'None'}")
     
-    # Extract decision path
-    node_indicator = clf_best.decision_path(patient_row)
-    leaf_id = clf_best.apply(patient_row)[0]
-    node_indices = node_indicator.indices[node_indicator.indptr[0]:node_indicator.indptr[1]]
-    
-    tree_ = clf_best.tree_
+    decision_steps, traced_prediction = trace_decision_path(
+        clf_best,
+        patient_row,
+        feature_cols,
+        classes,
+    )
     print("\nDecision Tree Path Traversal:")
-    
-    path_features = []
-    for step_num, node_id in enumerate(node_indices, 1):
-        if node_id == leaf_id:
-            pred_class_idx = np.argmax(tree_.value[node_id])
-            pred_class_name = classes[pred_class_idx]
-            samples_in_leaf = tree_.n_node_samples[node_id]
-            print(f"  Step {step_num} [LEAF NODE {node_id}]: Reached terminal node with {samples_in_leaf} training samples. Final Prediction -> '{pred_class_name}'")
-        else:
-            feat_idx = tree_.feature[node_id]
-            feat_name = feature_cols[feat_idx]
-            path_features.append(feat_name)
-            threshold = tree_.threshold[node_id]
-            val = patient_data[feat_name]
-            
-            if val <= threshold:
-                decision_str = f"<= {threshold:.2f} (Rule satisfied: True -> Go Left)"
-            else:
-                decision_str = f"> {threshold:.2f} (Rule satisfied: False -> Go Right)"
-                
-            print(f"  Step {step_num} [Node {node_id}]: Split on '{feat_name}' | Patient value: {val} {decision_str}")
+    for step_num, (feature_name, patient_value, threshold, direction) in enumerate(
+        decision_steps,
+        1,
+    ):
+        comparison = "<=" if direction == "left" else ">"
+        print(
+            f"  Step {step_num}: '{feature_name}' = {patient_value} "
+            f"{comparison} {threshold:.2f}; go {direction}."
+        )
+    print(f"  Final Prediction -> '{traced_prediction}'")
 
-    # Dynamic clinical rationale generated from actual traced path features
+    # Dynamic clinical rationale generated from the shared traced path.
+    path_features = [step[0] for step in decision_steps]
     if path_features:
         if len(path_features) == 1:
             features_str = f"checking '{path_features[0]}'"
@@ -403,6 +425,7 @@ for fn_penalty in [1, 1.5, 2, 2.5, 3]:
     result = {
         "fn_penalty": fn_penalty,
         "best_params": cost_sensitive_search.best_params_,
+        "model": cost_sensitive_model,
         "train_accuracy": train_accuracy_cost_sensitive,
         "test_accuracy": test_accuracy_cost_sensitive,
         "train_test_gap": train_test_gap_cost_sensitive,
@@ -417,6 +440,14 @@ for fn_penalty in [1, 1.5, 2, 2.5, 3]:
     print(f"Train/test gap: {result['train_test_gap']:.2f} percentage points")
     print(f"Cancer false negatives: {result['false_negatives']}")
     print(f"False positives: {result['false_positives']}")
+
+fn_penalty_1_5_result = next(
+    result for result in phase_2b_results if result["fn_penalty"] == 1.5
+)
+model = fn_penalty_1_5_result["model"]
+print("\n--- Phase 2b Fitted Model Confirmation (fn_penalty=1.5) ---")
+print(f"type(model): {type(model)}")
+print(f"model.get_params(): {model.get_params()}")
 
 # %% [markdown]
 # ## Phase 2b Results: Accuracy and False-Negative Trade-off
@@ -554,3 +585,197 @@ else:
         f"{best_false_negative_result['fn_penalty']}. The tested range does not "
         f"yet show a clear point of diminishing returns."
     )
+
+# %% [markdown]
+# ## Interactive Symptom-Awareness Screening Interface
+#
+# This interface reuses the already-fitted Phase 2 models. It does not retrain
+# either model, and the analysis-only decision-path explanation comes from the
+# same `trace_decision_path` helper used by the patient walkthroughs.
+
+# %%
+import ipywidgets as widgets
+from IPython.display import display, Markdown
+
+SYMPTOM_GROUPS = {
+    "General": [
+        "unexplained_weight_loss",
+        "fatigue",
+        "night_sweats",
+        "persistent_pain",
+    ],
+    "Breast": [
+        "breast_lump",
+        "breast_skin_changes",
+        "nipple_discharge",
+        "nipple_inversion",
+        "breast_swelling",
+    ],
+    "Lung": [
+        "persistent_cough",
+        "coughing_blood",
+        "chest_pain",
+        "shortness_of_breath",
+        "hoarseness",
+    ],
+    "Cervical": [
+        "abnormal_vaginal_bleeding",
+        "unusual_vaginal_discharge",
+        "pelvic_pain",
+    ],
+}
+
+
+def make_symptom_section(section_name, symptom_names):
+    """Group related checkboxes so the form mirrors the symptom vocabulary."""
+    section_checkboxes = []
+    for symptom_name in symptom_names:
+        checkbox = widgets.Checkbox(
+            value=False,
+            description=symptom_name.replace("_", " ").title(),
+            indent=False,
+            layout=widgets.Layout(width="320px"),
+        )
+        symptom_checkboxes[symptom_name] = checkbox
+        section_checkboxes.append(checkbox)
+
+    return widgets.VBox(
+        [
+            widgets.HTML(f"<b>{section_name} symptoms</b>"),
+            *section_checkboxes,
+        ],
+        layout=widgets.Layout(
+            border="1px solid #cccccc",
+            padding="8px",
+            margin="4px",
+        ),
+    )
+
+
+# A single widget per symptom keeps the submitted patient profile explicit and
+# prevents accidental feature values from being inferred from the UI layout.
+symptom_checkboxes = {}
+symptom_sections = [
+    make_symptom_section(section_name, symptom_names)
+    for section_name, symptom_names in SYMPTOM_GROUPS.items()
+]
+
+age_slider = widgets.IntSlider(
+    value=40,
+    min=20,
+    max=89,
+    step=1,
+    description="Age:",
+    continuous_update=False,
+)
+sex_dropdown = widgets.Dropdown(
+    options=[("Female", "F"), ("Male", "M")],
+    value="F",
+    description="Sex:",
+)
+model_selector = widgets.ToggleButtons(
+    options=["Standard Model", "High-Sensitivity Model"],
+    value="Standard Model",
+    description="Model:",
+)
+screening_button = widgets.Button(
+    description="Get Screening Result",
+    button_style="primary",
+    icon="search",
+)
+
+# Retrieve the high-sensitivity model from the corrected Phase 2b results so
+# the interface always uses the exact fitted model selected by that search.
+high_sensitivity_result = next(
+    result for result in phase_2b_results if result["fn_penalty"] == 1.5
+)
+high_sensitivity_model = high_sensitivity_result["model"]
+standard_model = clf_best
+
+
+def format_decision_path(decision_steps):
+    """Turn shared tracer tuples into readable notebook Markdown."""
+    if not decision_steps:
+        return "No internal split was required for this patient profile."
+
+    formatted_steps = []
+    for step_number, (feature_name, patient_value, threshold, direction) in enumerate(
+        decision_steps,
+        1,
+    ):
+        comparison = "<=" if direction == "left" else ">"
+        formatted_steps.append(
+            f"{step_number}. `{feature_name}` = `{patient_value}` "
+            f"{comparison} `{threshold:.2f}` → go **{direction}**"
+        )
+    return "\n".join(formatted_steps)
+
+
+def build_screening_row():
+    """Convert widget values into the exact feature schema used in training."""
+    patient_values = {
+        symptom_name: int(checkbox.value)
+        for symptom_name, checkbox in symptom_checkboxes.items()
+    }
+    patient_values["age"] = age_slider.value
+    patient_values["sex_encoded"] = 1 if sex_dropdown.value == "F" else 0
+    return pd.DataFrame([patient_values], columns=feature_cols)
+
+
+screening_output = widgets.Output()
+
+
+def on_screening_button_clicked(_button):
+    patient_row = build_screening_row()
+    selected_model = (
+        standard_model
+        if model_selector.value == "Standard Model"
+        else high_sensitivity_model
+    )
+    decision_steps, predicted_class = trace_decision_path(
+        selected_model,
+        patient_row,
+        feature_cols,
+        classes,
+    )
+
+    with screening_output:
+        # Clear only the result area so the disclaimer and form remain visible.
+        screening_output.clear_output(wait=True)
+        display(Markdown(f"### Predicted class: **{predicted_class}**"))
+
+        if model_selector.value == "High-Sensitivity Model":
+            standard_prediction = standard_model.predict(patient_row)[0]
+            display(
+                Markdown(
+                    "| Model | Prediction |\n"
+                    "|---|---|\n"
+                    f"| Standard Model | **{standard_prediction}** |\n"
+                    f"| High-Sensitivity Model | **{predicted_class}** |"
+                )
+            )
+
+        display(Markdown("#### Decision path\n" + format_decision_path(decision_steps)))
+
+
+screening_button.on_click(on_screening_button_clicked)
+
+screening_form = widgets.VBox(
+    [
+        widgets.HTML("<h3>Patient symptom profile</h3>"),
+        *symptom_sections,
+        widgets.HBox([age_slider, sex_dropdown]),
+        model_selector,
+        screening_button,
+    ]
+)
+screening_disclaimer = widgets.HTML(
+    "<b>This is a symptom-awareness screening aid, not a diagnosis. "
+    "Consult a healthcare professional for any health concerns.</b>"
+)
+
+# The disclaimer is displayed outside the clearable Output widget so it is
+# permanent and remains visible after every new screening result.
+display(screening_form)
+display(screening_disclaimer)
+display(screening_output)
